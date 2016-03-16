@@ -1,0 +1,71 @@
+Diff, clears the clutter so you do not have to.
+
+When trying to see why file A and file A + (a few tweaks) behave unexpectantly differently it is safe to initially assume the divergence in behavior is due to the tweaks .
+
+The issue could be caused by side effects produced by the 'non-tweaked' portions of the files conflicting unexpectently with ligitamate tweaks.
+Many problems in code however have their origins in human mistakes like spelling errors, using the wrong variable,deleting a line, and so on. 
+It is safe to assume file A lacks those types of errors  if file A produces expected bahavior.
+So one can expect to find any errors if they exist in merely the tweaks to the code.
+
+That is where Diff comes in. Diff outputs ONLY the tweaks when inputed a file and the same file + some tweaks.
+Diff therefore can be used to error check. Checking spelling, correct variable assignment and so on is vastly easier then thinking about
+potential side effects of code each component of the code. If one can eliminate issues by checking for human errors, one saves time.
+
+DIFF SAVES TIME
+
+
+
+Why might having access to a files history make you a better programmer?
+
+There are times in which having data which was part of an older version of 
+a file is helpful. This is left to be self-evidint here. 
+
+Where the history of a file is lost, where one seeks the data held in an 
+old version of a file they must recreate that file, probably only 
+conceptially. Recreating a file which one has already created is 
+repeating yourself, violationg the Don't Repeat Yourself principle.
+
+Following the DRY principle will make you a better programmer, therefore 
+having access to ones file history will make one a better programmer as
+that access allows one to not RY.
+
+
+Manual Commit vs Auto Commit
+
+Manual Commiting by its very nature gives more control over your versioning. It allows the deft commiter to only commit what he or she
+sees as good commits. This is a double edged sorwd as a the non deft commiter will commit what he or she shouldn't and not commit what 
+he or she should.
+Auto commit on the otherhand merely commits any state which was present when the commiting critrea was reached. This process completely 
+ignores commiting based on any abstract critra of usefulness of each commit. Therefore although good commits are likely to be saved. Bad
+commits are likely to happen as well, polluting the space.
+Time restraints being real and non-trivial then suggests that where the price of manually commiting is not prohibitally high, a skilled 
+commiter will produce a more useful set of commits.
+
+
+What do you think of version control systems, like Git, which allow for multiple files in a commit as apposed to Google Docs which treat
+files separately?
+Gits version control is orintated at interdependant files. State of eachother relative to each other is important therefore that design 
+desion is necasary as apposed to google docs which clustering file states is an unnessary overhead as it is designed for documents.
+
+
+How can you use the commands git log and git diff to view the history of files?
+Git log can be used if the commiter writes good commit notes to find the correct commit
+and commit diff can be used to find exactly the 'tweaks' of that commit.
+(where commit A = next commit after commit B A diff b = tweaks)
+With the one two punch of log commit one look at only the changes between commits.
+
+How might using version control make you more confident to make changes that could break something?
+Version control lowers the cost of finding bugs where commits represent a solitary logic change or set of trivial corrections. Where
+commits represent solitary logical changes isolating the commit which last does not contain the bug will allow you to pin point exactly
+where the bug resides.
+This ability to find bugs right away lowers the cost of taking risks as they do not hurt as badly. This risk reduction allows the programmer
+to try more things without a drastic reduction in productivity.
+
+What are you trying to use Git for?
+I have desided to take this course because I wish to gain the skills necessary to gain employment as a developer and I trust in Udacity to
+tell me what exactly those skills are. My trust leads me to believe my course instructor when they say the after overcoming the learing 
+curve of git, it will make me a better developer. 
+
+I trust this will help me get the job I BURN FOR. I dive into the challenge of learning git headlong, with the promise of great gifts the 
+impetus for my to my action. 
+
