@@ -1,0 +1,23 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+I do not really know what happens when you initialize a repository in a 
+technical sense. However, I do know that git creates something that looks
+at the directory in question (I assume any child directory files as well) 
+and when in that directory git actions will be oriented on that set of 
+files. It I assume treats that directories contents as a unit (a 
+repository). 
+
+
+How is the staging area different from the working directory and the 
+repository? What value do you think it offers?
+
+Staging area is a set of files. Working directory - Staging Area = untracted
+files. Repository  - Staging Area = Repository | subset of Repository.
+
+Working directory is simply the context of the Repo, Repository is the 
+set of files being managed by git and their histories. Staging Area is a Set
+ of files which git will add to the repo on the next commit.
+
+Staging ground further refines the control offered by git commits. Allowing
+the user to further mold what is commited, when.  
+ 
