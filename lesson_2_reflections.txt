@@ -20,4 +20,67 @@ set of files being managed by git and their histories. Staging Area is a Set
 
 Staging ground further refines the control offered by git commits. Allowing
 the user to further mold what is commited, when.  
+
  
+How can you use the staging area to make sure you have one commit per 
+logical change?
+
+I can see how going through the commiting process can after each change 
+can become a bit of a chore. If one could make a bunch of changes and 
+commit one at a time, one could have more uninterupted work and still gain
+the benefit of a rich and utilizable commit history. 
+
+Staging area affords the git user that luxury.
+
+
+
+What are some situations when branches would be helpful in keeping your 
+history organized? How would branches help?
+
+If branches are used to experiment with with code than many of the features
+which do not workout will not be merged into the master branch and therefore
+will not clutter up the master branches commit history. The history will
+then be more of a representation of the progressive building of the 
+codes archaitecture, rather than a record of the various wims which took
+hold over the programmers whilst building the project.
+
+
+How do the diagrams help you visualize the branch structure?
+
+They are literally visualized  as apposed to when they are in my head, where
+they are not literally visualized.
+That is my my first thought on what to say.
+I suppose actually having  to schematically represent the commit history
+forces me to fill whatever holes I have in my knoledge on how the 
+structural nature of commit history. My exact understanding is a tested and
+even if it is not immediately disproven, it is at least put into a concious
+formulation. Than when presented with new information which contradicts that
+formulation I am able to more easily pick out the faults in my mental model
+of the commit history.
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The result of merging to branches together is to add both commit histories
+together and take the changes of each files of the branch A being merged
+into branch B and put those changes into the latest commit of branch B.
+
+We represnt the merge the way we do because the act of merging connects the
+two branches at the latest commit and retains both commit histories. So
+the new head is a decendant of both histories and therefore both histories
+are taken present.
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Well, it is certainly easier in the moment to have git automatically insert
+changes to files. However that comes at the price of having to trust that
+git will serve all conflicts to the user correctly. If it does miss some
+conflicts, do to reasons like if some more complex conflicts such as a 
+refactoring of different code which lead to extra required params, git will
+have issues.
+
+Furtermore, if a a branch really starts to differ from the master, how will
+they be reintagrated? So many changes might break the code when they are 
+integrated again. Therefore branches are sort of limited in size, as too 
+much divulgence will raise issues.
