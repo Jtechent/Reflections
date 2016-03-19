@@ -1,0 +1,11 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+A remote respository which never is pushed is effectively the same as a set of locally stored files. Nothing 
+is really lost then (except a small amount of time) by making a project a remote repository. However, where one pushes that
+remote  repository the files are now available on different machines.
+
+The programmer who wants a way to conviently share a projects files, directory structure, and commit history probably will
+find the remote repository to be a fantastic option. There are many situations where access to a repo accross many machines 
+would be beneficial, such as for a public project where stakeholders would want to see the code, or for collaberation efforts
+where teams can gain flexability through the ability to choose a work space for reasons other than necessity which is afforded
+by the networking capabilities of remotes.
