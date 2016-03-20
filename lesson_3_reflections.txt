@@ -9,3 +9,19 @@ find the remote repository to be a fantastic option. There are many situations w
 would be beneficial, such as for a public project where stakeholders would want to see the code, or for collaberation efforts
 where teams can gain flexability through the ability to choose a work space for reasons other than necessity which is afforded
 by the networking capabilities of remotes.
+
+---------------------------------------------------------------------------
+
+Why might you want to always pull changes manually rather than having Git
+automatically stay up-to-date with your remote repository?
+
+For my answer I am assuming that people might want to at some point push
+breaking changes to code to github. Where multiple people are collaborating
+on a feature one might want to push one's changes work to github. As this
+is a feature with multiple people working on it, one person probably didn't
+complete the feature in one commit. Therefore it probably dones not work.
+
+If someone else is working on a different feature this breaking change might
+interfere with his or her work. That person might want to run the code, or
+might just want not to deal with another persons errors clogging their 
+console.
