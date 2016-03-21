@@ -25,3 +25,40 @@ If someone else is working on a different feature this breaking change might
 interfere with his or her work. That person might want to run the code, or
 might just want not to deal with another persons errors clogging their 
 console.
+
+----------------------------------------------------------------------------
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Clones exact copies of a repositories at a certain time. Forks are pretty
+much the same thing. Forks are clones of Github hosted Repos cloned to some
+other part of Github. 
+
+Branches on the other hand are different heads (pointers to commits which
+are not part of commits) which point to commits which are notnecessarily the
+same but whose histories do converge onto the same commit at some point.
+
+One would want to clone a repo whenever they want the data it contains on
+his or her local machine. However, if someone wants to change that repo on
+Github, does not want to edit the original repo or cannot, while still 
+giving credit to the original authors, they can fork it.
+
+Branching is used wherever one does not want to commit changes have changes
+show up in the master quite yet or ever.
+
+---------------------------------------------------------------------------
+
+How would you collaborate without using Git or GitHub? What would be easier,
+and what would be harder?
+
+I could collaborate with others by means of some other version of 
+version-control, or my fellow collaboraters and I would have to be passing
+messages to eachother as we edited files so that we did not break eachothers
+work. 
+
+The great benefit of Git and Gitub is that it provides an efficient way to
+manage and integrate individual changes to a project. Without using Git and
+Github the easy for making a marginal change might be easier in terms of 
+a work to output ratio, holding all else equal. However, the proplem is that
+all else will likely not be equal. Without the use of the technologies the
+work to integrate changes will become more demanding as the project scales.
