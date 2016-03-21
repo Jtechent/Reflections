@@ -62,3 +62,25 @@ Github the easy for making a marginal change might be easier in terms of
 a work to output ratio, holding all else equal. However, the proplem is that
 all else will likely not be equal. Without the use of the technologies the
 work to integrate changes will become more demanding as the project scales.
+
+---------------------------------------------------------------------------
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+Branches make cooperating much easier by allowing collaborators to work on
+individual features of a project and write a changed version of the
+project while not actually setting their changes in stone. If one decides 
+to make changes to a project in the master branch and tries to evaluate each
+feature or change before it is added one has to evaluate that feature or
+change when it is still only an idea not after it is written.
+
+The great value of making changes in branches than is the ablity to evaluate
+not just an amorphis idea, but actual code. This actual code can be read 
+through, it can be tested and its side effects can be actually seen not 
+merely postulated on. With the perspective gained from actaully looking at
+a finished product before deciding to integrate the fixes or features of a
+branch one can make better decisions than they could without that 
+perspective.
+
+This perspective, like many things in the world, comes at a cost. The cost
+is the time it takes to actaully manage these many branches.
